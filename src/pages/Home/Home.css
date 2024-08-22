@@ -1,0 +1,72 @@
+.home-container {
+    background-image: url('https://st4.depositphotos.com/5513768/28120/i/450/depositphotos_281200196-stock-photo-weathered-and-burned-out-neon.jpg'); /* Replace with your wallpaper URL */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Make sure the container takes up the full viewport height */
+    color: #fff; /* Ensure text is readable over the background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    /* align-items: flex-start;  */
+    /* text-align: left;  */
+    padding: 20px;
+    padding-left: 160px; /* Add padding to push content to the right */
+}
+
+.home-container h1,
+.home-container p {
+    color: #251414;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow */
+}
+
+.home-container h1 {
+    font-size: 3rem;
+}
+
+.home-container p {
+    font-size: 1.5rem;
+}
+.book-room-button {
+    background-color: hsl(340, 65%, 24%); /* Button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 12px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 1.5rem; /* Font size */
+    font-weight: bold; /* Font weight */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    margin-top: 20px; /* Space above the button */
+}
+
+.book-room-button:hover {
+    background-color: hsl(340, 61%, 18%); /* Darker color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+.book-room-button:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        padding-left: 20px; /* Adjust padding for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .home-container {
+        padding-left: 10px; /* Adjust padding for mobile phones */
+    }
+    .home-container h1 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    .home-container p {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}

@@ -1,0 +1,68 @@
+.back{
+    background-image: linear-gradient(rgb(67, 43, 43), #b8a9a1);
+}
+.somee {
+    text-align: center; 
+}
+
+.somee h1 {
+    margin: 0;
+    padding-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+.somee p {
+    margin: 0; 
+    display: block; 
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.reviews-slider-container {
+    width: 80vw;
+    margin: 0 auto; 
+    /* padding: 40px 0; */
+    /* gap: 2rem; */
+    
+}
+
+.review-card {
+    text-align: center; 
+    padding: 20px;
+    background-color: rgb(233, 209, 209); 
+    /* background-color: red; */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(93, 41, 41, 0.1);
+    /* margin-right: 20px; */
+    /* gap: 1.5rem; */
+    /* margin-inline: 20px; */
+    /* padding-bottom: 20px; */
+    /* width: 40px; */
+    width: 30vw;
+    
+
+}
+
+.review-image {
+    text-align: center;
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 15px; 
+    border: 3px solid #ccc; 
+    
+}
+
+.review-name {
+    font-size: 1.2rem; 
+    color: hwb(0 5% 91%);
+    margin-bottom: 10px; 
+}
+
+.review-text {
+    font-size: 1rem; 
+    color: hwb(0 7% 85%); 
+    font-style: italic;
+}

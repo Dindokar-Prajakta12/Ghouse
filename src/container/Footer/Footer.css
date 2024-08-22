@@ -1,0 +1,104 @@
+.footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding */
+    text-align: center; /* Center align text */
+}
+
+.footer-content {
+    display: flex; /* Flexbox for column layout */
+    justify-content: space-between; /* Space out the columns */
+    flex-wrap: wrap; /* Wrap columns on smaller screens */
+    max-width: 1200px; /* Max width for better readability */
+    margin: 0 auto; /* Center align content */
+}
+
+.footer-column {
+    flex: 1; /* Allow columns to grow */
+    margin: 0 10px; /* Space between columns */
+    min-width: 200px; /* Minimum width for columns */
+}
+
+.footer-column h3 {
+    border-bottom: 1px solid #fff; /* Underline for headings */
+    padding-bottom: 10px; /* Space below heading */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.footer-column p,
+.footer-column ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-column ul {
+    list-style: none; /* Remove bullets */
+}
+
+.footer-column ul li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.footer-column ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-icons {
+    margin-top: 10px;
+    /* padding-right: 40%; */
+    margin-right: 40%;
+    text-align: center;   
+}
+
+.social-icons a {
+    color: #fff; /* Icon color */
+    margin: 0 10px; /* Space between icons */
+    text-decoration: none; /* Remove underline */
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.social-icons a:hover {
+    color: #ff4081; /* Change color on hover */
+}
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center align columns */
+    }
+
+    .footer-column {
+        margin: 10px 0; /* Space between stacked columns */
+        text-align: center; /* Center align text in columns */
+    }
+
+    .footer-column ul li {
+        margin: 5px 0; /* Space between list items in vertical layout */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .footer-column {
+        min-width: auto; /* Allow columns to take full width */
+    }
+
+    .social-icons {
+        margin-top: 15px; /* Adjust space for social icons */
+    }
+
+    .social-icons a {
+        margin: 0 5px; /* Space between icons */
+    }
+}
