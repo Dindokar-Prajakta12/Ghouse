@@ -68,7 +68,6 @@
     color: #ff4081; /* Change color on hover */
 }
 
-
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column; /* Stack columns vertically */
